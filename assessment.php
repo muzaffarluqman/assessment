@@ -45,5 +45,5 @@ $sentence1="I love apples";
 $sentence2="I adore oranges";
 $similarWords = [["love", "adore"], ["apples", "oranges"]];
 $result = isSimilar($sentence1, $sentence2, $similarWords);
-var_dump($result); // Output: bool(true) (Because in this example all conditions match)
+var_dump($result); 
 ?>
